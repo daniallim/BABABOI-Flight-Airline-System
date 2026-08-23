@@ -18,6 +18,6 @@ To run this project, please ensure that the following software is installed:
 **⚠️ Important Notes**
 * Do not run the project directly from the ZIP file.
 * Ensure that all project files remain in their original folder structure.
-* It is recommended to use Apache NetBeans IDE 31 and JDK 26 for compatibility.
+* Please use Apache NetBeans IDE 31 and JDK 26 for compatibility.
 
 Programming Language: Java
