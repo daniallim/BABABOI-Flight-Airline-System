@@ -1,8 +1,17 @@
 <p align="center">
 
-# ✈️ BABABOI Airline Flight System <p align="center"> <strong>Graph-Based Airline Network & Route Analysis System</strong> </p> <p align="center"> A Java application for managing and analysing domestic airline routes using Graph Data Structures and Algorithms. </p> <p align="center"> <img src="https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk" alt="Java"> <img src="https://img.shields.io/badge/NetBeans-31%2B-blue?logo=apache"> <img src="https://img.shields.io/badge/Graph-Weighted%20Directed%20Graph-green"> <img src="https://img.shields.io/badge/Algorithms-DFS%20%7C%20BFS%20%7C%20Dijkstra-purple"> </p>
+<img src="https://img.icons8.com/color/96/airplane-mode-on.png" width="90" alt="Airplane Logo"/>
 
----
+BABABOI Airline Flight System
+✈️ Graph-Based Airline Network & Route Analysis System ✈️
+
+<p> A Java application for managing, exploring, and analysing domestic airline routes<br> using <strong>Graph Data Structures, Graph Traversal, and Shortest Path Algorithms</strong>. </p>
+
+<br>
+
+<img src="https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/Apache%20NetBeans-31%2B-blue?logo=apache&logoColor=white" alt="NetBeans"> <img src="https://img.shields.io/badge/Graph-Weighted%20Directed%20Graph-success" alt="Graph"> <img src="https://img.shields.io/badge/Algorithms-DFS%20%7C%20BFS%20%7C%20Dijkstra-purple" alt="Algorithms"> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+
+</p>
 
 ## 📖 Overview
 
