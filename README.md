@@ -1,23 +1,35 @@
-**✈️ BABABOI Flight Airline System
-**
+# ✈️ BABABOI Airline Flight System
 
-**🛠️ Requirements**
-To run this project, please ensure that the following software is installed:
+## 📖 Overview
 
-* Apache NetBeans IDE 31 or later
-* JDK 26
+The **BABABOI Airline Flight System** is a Java-based application that models domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak** using a **Weighted Directed Graph**.
 
-**📥 Instructions**
+In the system, each airport is represented as a **vertex**, while each direct flight route is represented as a **directed edge**. Each route stores essential flight information, including the **flight number, distance, and duration**.
+
+The system applies **Graph Theory and Data Structure concepts** to represent the airline network and support the analysis of airport connectivity and route accessibility.
+
+## 🛠️ Requirements
+
+* **Apache NetBeans IDE 31 or later**
+* **JDK 26**
+* **Java**
+
+## 📥 Installation & Execution
+
 1. Download the project ZIP file.
-2. Extract or unzip the project completely.
-3. Open Apache NetBeans IDE.
-4. Open the extracted project folder.
-5. Ensure that JDK 26 is properly installed and configured.
-6. Run Main.java to start the application.
+2. Extract the ZIP file completely.
+3. Open **Apache NetBeans IDE**.
+4. Select **File → Open Project** and open the extracted project folder.
+5. Ensure that **JDK 26** is configured for the project.
+6. Run **Main.java** to launch the application.
 
-**⚠️ Important Notes**
+## ⚠️ Important Notes
+
 * Do not run the project directly from the ZIP file.
-* Ensure that all project files remain in their original folder structure.
-* Please use Apache NetBeans IDE 31 and JDK 26 for compatibility.
+* Maintain the original project folder structure.
+* Ensure all required project files are present.
+* **JDK 26** and **Apache NetBeans IDE 31+** are recommended for compatibility.
 
-Programming Language: Java
+## 💻 Technology
+
+**Programming Language:** Java
