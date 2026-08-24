@@ -1,4 +1,4 @@
-<p align="center">
+<div align="center">
 
 <img src="https://img.icons8.com/color/96/airplane-mode-on.png" width="90" alt="Airplane Logo"/>
 
@@ -6,10 +6,8 @@
 
 ### ✈️ Graph-Based Airline Network & Route Analysis System ✈️
 
-<p>
 A Java application for managing, exploring, and analysing domestic airline routes<br>
 using <strong>Graph Data Structures, Graph Traversal, and Shortest Path Algorithms</strong>.
-</p>
 
 <br>
 
@@ -19,8 +17,7 @@ using <strong>Graph Data Structures, Graph Traversal, and Shortest Path Algorith
 <img src="https://img.shields.io/badge/Algorithms-DFS%20%7C%20BFS%20%7C%20Dijkstra-purple" alt="Algorithms">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
 
-</p>
-
+</div>
 ---
 
 ## 📖 Overview
