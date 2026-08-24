@@ -1,35 +1,77 @@
 # ✈️ BABABOI Airline Flight System
 
-## 📖 Overview
+[![Java](https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk)](https://www.oracle.com/java/)
+[![NetBeans](https://img.shields.io/badge/NetBeans-31%2B-blue?logo=apache)](https://netbeans.apache.org/)
 
-The **BABABOI Airline Flight System** is a Java-based application that models domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak** using a **Weighted Directed Graph**.
+A **Java-based airline flight management system** that models domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak** using a **Weighted Directed Graph**.
 
-In the system, each airport is represented as a **vertex**, while each direct flight route is represented as a **directed edge**. Each route stores essential flight information, including the **flight number, distance, and duration**.
+## 📌 Overview
 
-The system applies **Graph Theory and Data Structure concepts** to represent the airline network and support the analysis of airport connectivity and route accessibility.
+The system represents each **airport as a vertex** and each **direct flight route as a directed edge**. Flight routes are weighted with essential information such as:
 
-## 🛠️ Requirements
+* ✈️ Flight Number
+* 📍 Departure & Arrival Airports
+* 📏 Flight Distance
+* ⏱️ Flight Duration
 
-* **Apache NetBeans IDE 31 or later**
+By applying **Graph Theory and Data Structure concepts**, the system provides a structured representation of the airline network for analysing **airport connectivity and route accessibility**.
+
+## ✨ Features
+
+* Airport and flight route management
+* Weighted Directed Graph representation
+* Flight information management
+* Airport connectivity analysis
+* Route accessibility analysis
+
+## 🛠️ Technologies
+
+| Technology      | Version                 |
+| --------------- | ----------------------- |
+| Java            | JDK 26                  |
+| Apache NetBeans | 31+                     |
+| Data Structure  | Weighted Directed Graph |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure the following are installed:
+
 * **JDK 26**
-* **Java**
+* **Apache NetBeans IDE 31 or later**
 
-## 📥 Installation & Execution
+Verify your Java installation:
 
-1. Download the project ZIP file.
-2. Extract the ZIP file completely.
+```bash
+java -version
+```
+
+### Installation
+
+1. Download or clone this repository.
+2. Extract the project if downloaded as a ZIP file.
 3. Open **Apache NetBeans IDE**.
-4. Select **File → Open Project** and open the extracted project folder.
-5. Ensure that **JDK 26** is configured for the project.
-6. Run **Main.java** to launch the application.
+4. Select **File → Open Project**.
+5. Select the extracted project folder.
+6. Configure the project to use **JDK 26**.
+7. Locate and run `Main.java`.
 
 ## ⚠️ Important Notes
 
-* Do not run the project directly from the ZIP file.
-* Maintain the original project folder structure.
-* Ensure all required project files are present.
-* **JDK 26** and **Apache NetBeans IDE 31+** are recommended for compatibility.
+> **Do not run the project directly from the ZIP file.**
 
-## 💻 Technology
+* Extract the project completely before opening it.
+* Maintain the original folder structure.
+* Ensure all required project files are included.
+* JDK 26 and NetBeans 31+ are recommended for compatibility.
+
+## 🎓 Academic Project
+
+This project demonstrates the practical application of **Graph Theory, Data Structures, and Object-Oriented Programming** in modelling a real-world airline transportation network.
+
+---
 
 **Programming Language:** Java
+**Graph Model:** Weighted Directed Graph
+**Coverage:** Peninsular Malaysia, Sabah & Sarawak
