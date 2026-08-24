@@ -2,16 +2,26 @@
 
 <img src="https://img.icons8.com/color/96/airplane-mode-on.png" width="90" alt="Airplane Logo"/>
 
-BABABOI Airline Flight System
-✈️ Graph-Based Airline Network & Route Analysis System ✈️
+# BABABOI Airline Flight System
 
-<p> A Java application for managing, exploring, and analysing domestic airline routes<br> using <strong>Graph Data Structures, Graph Traversal, and Shortest Path Algorithms</strong>. </p>
+### ✈️ Graph-Based Airline Network & Route Analysis System ✈️
+
+<p>
+A Java application for managing, exploring, and analysing domestic airline routes<br>
+using <strong>Graph Data Structures, Graph Traversal, and Shortest Path Algorithms</strong>.
+</p>
 
 <br>
 
-<img src="https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/Apache%20NetBeans-31%2B-blue?logo=apache&logoColor=white" alt="NetBeans"> <img src="https://img.shields.io/badge/Graph-Weighted%20Directed%20Graph-success" alt="Graph"> <img src="https://img.shields.io/badge/Algorithms-DFS%20%7C%20BFS%20%7C%20Dijkstra-purple" alt="Algorithms"> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+<img src="https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Apache%20NetBeans-31%2B-blue?logo=apache&logoColor=white" alt="NetBeans">
+<img src="https://img.shields.io/badge/Graph-Weighted%20Directed%20Graph-success" alt="Graph">
+<img src="https://img.shields.io/badge/Algorithms-DFS%20%7C%20BFS%20%7C%20Dijkstra-purple" alt="Algorithms">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
 
 </p>
+
+---
 
 ## 📖 Overview
 
@@ -33,15 +43,15 @@ The project applies important computer science concepts, including:
 
 ## ✨ Key Features
 
-| Module                  | Description                                                             |
-| ----------------------- | ----------------------------------------------------------------------- |
-| 🔐 **User Login**       | Provides controlled access to the airline management system.            |
-| 🗺️ **Flight Network**  | Displays the airline network and airport connections.                   |
-| 🏢 **Manage Airports**  | Add, update, delete, and manage airport vertices.                       |
-| ✈️ **Manage Flights**   | Create and manage flight routes and related information.                |
-| 🔎 **DFS Route Search** | Explores connected airports using Depth-First Search.                   |
-| 🔎 **BFS Route Search** | Explores airport connections level by level using Breadth-First Search. |
-| 📍 **Shortest Path**    | Finds the shortest route between airports using Dijkstra's Algorithm.   |
+| Module                  | Description                                                           |
+| ----------------------- | --------------------------------------------------------------------- |
+| 🔐 **User Login**       | Provides controlled access to the airline management system.          |
+| 🗺️ **Flight Network**  | Displays the airline network and airport connections.                 |
+| 🏢 **Manage Airports**  | Add, update, delete, and manage airport vertices.                     |
+| ✈️ **Manage Flights**   | Create and manage flight routes and related information.              |
+| 🔎 **DFS Route Search** | Explores connected airports using Depth-First Search.                 |
+| 🔎 **BFS Route Search** | Explores airport connections level by level using Bread-First Search. |
+| 📍 **Shortest Path**    | Finds the shortest route between airports using Dijkstra's Algorithm. |
 
 ---
 
@@ -176,6 +186,8 @@ BABABOI-Flight-Airline-System
 │
 ├── manifest.mf
 │
+├── LICENSE
+│
 └── README.md
 ```
 
@@ -217,11 +229,16 @@ BABABOI Airline Flight System
 
 ## 🧩 Core Classes
 
-| Class        | Responsibility                                                       |
-| ------------ | -------------------------------------------------------------------- |
-| `Login.java` | Handles user login and access to the system.                         |
-| `Main.java`  | Serves as the main entry point of the application.                   |
-| `Menu.java`  | Provides the main navigation interface and access to system modules. |
+| Class          | Responsibility                                                        |
+| -------------- | --------------------------------------------------------------------- |
+| `Login.java`   | Handles user login and controls access to the system.                 |
+| `Main.java`    | Serves as the main entry point of the application.                    |
+| `Menu.java`    | Provides the main navigation interface and access to system modules.  |
+| `Graph.java`   | Manages the weighted directed graph representing the airline network. |
+| `Airport.java` | Represents airport vertices within the graph.                         |
+| `Flight.java`  | Represents flight routes and related information.                     |
+
+> Additional classes may be included depending on the implementation of the system.
 
 ---
 
@@ -381,6 +398,16 @@ Potential future enhancements include:
 
 ---
 
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project in accordance with the terms of the MIT License.
+
+See the `LICENSE` file for more information.
+
+---
+
 ## 👥 Project Information
 
 |                          |                                       |
@@ -391,6 +418,7 @@ Potential future enhancements include:
 | **IDE**                  | Apache NetBeans IDE 31+               |
 | **Data Structure**       | Weighted Directed Graph               |
 | **Algorithms**           | DFS · BFS · Dijkstra's Algorithm      |
+| **License**              | MIT License                           |
 | **Region**               | Peninsular Malaysia · Sabah · Sarawak |
 
 ---
@@ -400,5 +428,9 @@ Potential future enhancements include:
 ### ✈️ Explore Routes · Analyse Connections · Connect Malaysia
 
 **Built with Java, Graph Data Structures, and Algorithms.**
+
+<br>
+
+⭐ If you find this project useful, consider giving the repository a star!
 
 </p>
