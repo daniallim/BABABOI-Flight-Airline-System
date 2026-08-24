@@ -18,13 +18,14 @@ using <strong>Graph Data Structures, Graph Traversal, and Shortest Path Algorith
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
 
 </div>
+
 ---
 
 ## 📖 Overview
 
 **BABABOI Airline Flight System** is a Java-based application developed to demonstrate the practical implementation of **Graph Data Structures and Algorithms** through an airline route management system.
 
-The system models domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak** using a **Weighted Directed Graph**. Each airport is represented as a **vertex**, while each flight route is represented as a **directed edge** containing relevant information such as flight number, distance, and duration.
+The system models domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak** using a **Weighted Directed Graph**. Each airport is represented as a **vertex**, while each flight route is represented as a **directed edge** containing information such as flight number, distance, and duration.
 
 The project applies important computer science concepts, including:
 
@@ -40,21 +41,21 @@ The project applies important computer science concepts, including:
 
 ## ✨ Key Features
 
-| Module                  | Description                                                           |
-| ----------------------- | --------------------------------------------------------------------- |
-| 🔐 **User Login**       | Provides controlled access to the airline management system.          |
-| 🗺️ **Flight Network**  | Displays the airline network and airport connections.                 |
-| 🏢 **Manage Airports**  | Add, update, delete, and manage airport vertices.                     |
-| ✈️ **Manage Flights**   | Create and manage flight routes and related information.              |
-| 🔎 **DFS Route Search** | Explores connected airports using Depth-First Search.                 |
-| 🔎 **BFS Route Search** | Explores airport connections level by level using Bread-First Search. |
-| 📍 **Shortest Path**    | Finds the shortest route between airports using Dijkstra's Algorithm. |
+| Module                  | Description                                                             |
+| ----------------------- | ----------------------------------------------------------------------- |
+| 🔐 **User Login**       | Provides controlled access to the airline management system.            |
+| 🗺️ **Flight Network**  | Displays the airline network and airport connections.                   |
+| 🏢 **Manage Airports**  | Allows users to add, update, delete, and manage airport vertices.       |
+| ✈️ **Manage Flights**   | Allows users to create and manage flight routes.                        |
+| 🔎 **DFS Route Search** | Explores connected airports using Depth-First Search.                   |
+| 🔎 **BFS Route Search** | Explores airport connections level by level using Breadth-First Search. |
+| 📍 **Shortest Path**    | Finds the shortest route between airports using Dijkstra's Algorithm.   |
 
 ---
 
-## 🧠 Algorithms & Data Structures
+# 🧠 Algorithms & Data Structures
 
-### Weighted Directed Graph
+## Weighted Directed Graph
 
 The airline network is represented using a **Weighted Directed Graph**.
 
@@ -73,11 +74,11 @@ Airport A ───────────────► Airport B
 | **Weight**        | Distance or Duration     |
 | **Graph**         | Complete Airline Network |
 
-A directed graph is suitable because a flight route from one airport to another may have different characteristics or availability in the opposite direction.
+A directed graph is suitable for representing airline routes because flight connections have a specific departure and destination direction.
 
 ---
 
-### 🔵 Depth-First Search (DFS)
+## 🔵 Depth-First Search (DFS)
 
 DFS explores the airline network by travelling as deeply as possible along a route before backtracking.
 
@@ -89,7 +90,7 @@ It can be used to:
 
 ---
 
-### 🟢 Breadth-First Search (BFS)
+## 🟢 Breadth-First Search (BFS)
 
 BFS explores the airline network level by level, starting from a selected airport.
 
@@ -101,7 +102,7 @@ It can be used to:
 
 ---
 
-### 🟣 Dijkstra's Shortest Path Algorithm
+## 🟣 Dijkstra's Shortest Path Algorithm
 
 Dijkstra's Algorithm is used to determine the shortest route between two airports based on the assigned edge weights.
 
@@ -123,7 +124,7 @@ Destination Airport
 
 ---
 
-## 🖥️ System Modules
+# 🖥️ System Modules
 
 ### 🔐 User Login
 
@@ -139,7 +140,7 @@ Allows users to add, update, delete, and manage airport vertices within the airl
 
 ### ✈️ Manage Flights
 
-Allows users to create and manage flight routes between airports, including relevant flight information such as:
+Allows users to create and manage flight routes between airports, including information such as:
 
 * Flight Number
 * Departure Airport
@@ -163,7 +164,27 @@ Allows users to find the shortest route between airports using **Dijkstra's Shor
 
 # 📁 Project Structure
 
-The following structure represents the main project files:
+The main functional structure of the **BABABOI Airline Flight System** is organised as follows:
+
+```text
+BABABOI Airline Flight System
+│
+├── 🔐 User Login
+│
+├── 🗺️ Flight Network
+│
+├── 🏢 Manage Airports
+│
+├── ✈️ Manage Flights
+│
+├── 🔎 DFS Route Search
+│
+├── 🔎 BFS Route Search
+│
+└── 📍 Shortest Path
+```
+
+The Java source files are organised within the NetBeans source package:
 
 ```text
 BABABOI-Flight-Airline-System
@@ -173,9 +194,14 @@ BABABOI-Flight-Airline-System
 │   └── com.bababoi.airline.java
 │       │
 │       ├── Login.java
-│       ├── Main.java
 │       ├── Menu.java
-│       └── Other Java Classes...
+│       ├── FlightNetwork.java
+│       ├── ManageAirports.java
+│       ├── ManageFlights.java
+│       ├── DFS.java
+│       ├── BFS.java
+│       ├── ShortestPath.java
+│       └── Main.java
 │
 ├── nbproject
 │
@@ -188,58 +214,27 @@ BABABOI-Flight-Airline-System
 └── README.md
 ```
 
-> The exact file structure may vary depending on the Apache NetBeans project configuration.
+> **Note:** The class names above should match the actual Java filenames in the project. If your Java classes use different names, replace them accordingly.
 
 ---
 
-## 📦 Functional Module Structure
+# 🧩 Core Classes
 
-The following represents the main functional modules implemented in the system:
-
-```text
-BABABOI Airline Flight System
-│
-├── 🔐 User Login
-│   └── Provides controlled access to the airline management system.
-│
-├── 🗺️ Flight Network
-│   └── Displays the airline network and airport connections.
-│
-├── 🏢 Manage Airports
-│   └── Add, update, delete, and manage airport vertices.
-│
-├── ✈️ Manage Flights
-│   └── Create and manage flight routes and related information.
-│
-├── 🔎 DFS Route Search
-│   └── Explores connected airports using Depth-First Search.
-│
-├── 🔎 BFS Route Search
-│   └── Explores airport connections level by level using Breadth-First Search.
-│
-└── 📍 Shortest Path
-    └── Finds the shortest route between airports using
-        Dijkstra's Algorithm.
-```
+| Class / Module        | Responsibility                                                                |
+| --------------------- | ----------------------------------------------------------------------------- |
+| `Login.java`          | Handles user authentication and provides access to the system.                |
+| `Menu.java`           | Provides the main navigation interface for the system.                        |
+| `FlightNetwork.java`  | Displays and manages the overall airline network.                             |
+| `ManageAirports.java` | Handles the creation, updating, deletion, and management of airport vertices. |
+| `ManageFlights.java`  | Handles the creation and management of flight routes.                         |
+| `DFS.java`            | Implements Depth-First Search for route exploration.                          |
+| `BFS.java`            | Implements Breadth-First Search for route exploration.                        |
+| `ShortestPath.java`   | Implements Dijkstra's Algorithm to determine the shortest route.              |
+| `Main.java`           | Serves as the main entry point of the application.                            |
 
 ---
 
-## 🧩 Core Classes
-
-| Class          | Responsibility                                                        |
-| -------------- | --------------------------------------------------------------------- |
-| `Login.java`   | Handles user login and controls access to the system.                 |
-| `Main.java`    | Serves as the main entry point of the application.                    |
-| `Menu.java`    | Provides the main navigation interface and access to system modules.  |
-| `Graph.java`   | Manages the weighted directed graph representing the airline network. |
-| `Airport.java` | Represents airport vertices within the graph.                         |
-| `Flight.java`  | Represents flight routes and related information.                     |
-
-> Additional classes may be included depending on the implementation of the system.
-
----
-
-## 🛠️ Technology Stack
+# 🛠️ Technology Stack
 
 | Technology                  | Usage                          |
 | --------------------------- | ------------------------------ |
@@ -263,7 +258,7 @@ Before running the project, make sure the following software is installed:
 * **Java Development Kit (JDK) 26**
 * **Apache NetBeans IDE 31 or later**
 
-You can check your installed Java version by running:
+Check your installed Java version:
 
 ```bash
 java -version
@@ -281,51 +276,39 @@ Clone the repository:
 git clone https://github.com/YOUR-USERNAME/BABABOI-Flight-Airline-System.git
 ```
 
-Alternatively, you can download the repository as a **ZIP file** from GitHub.
-
----
+Alternatively, download the repository as a **ZIP file** from GitHub.
 
 ### 2. Extract the ZIP File
-
-> ⚠️ **Do not open or run the project directly from the ZIP file.**
 
 If you downloaded the project as a ZIP file:
 
 1. Locate the downloaded ZIP file.
 2. Right-click the ZIP file.
 3. Select **Extract All**.
-4. Choose a location on your computer.
+4. Choose a suitable location.
 5. Wait for the extraction to complete.
 
-After extracting, open the **BABABOI-Flight-Airline-System** folder.
-
----
+> ⚠️ **Do not open or run the project directly from the ZIP file.**
 
 ### 3. Open the Project in NetBeans
 
 Open **Apache NetBeans IDE 31 or later**.
 
-Navigate to:
+Go to:
 
 ```text
 File → Open Project
 ```
 
-Then select the extracted **BABABOI-Flight-Airline-System** project folder.
-
----
+Select the extracted **BABABOI-Flight-Airline-System** project folder.
 
 ### 4. Configure JDK 26
 
-Make sure the project is configured to use **JDK 26**.
-
-Verify that the correct Java platform is selected in the NetBeans project settings before running the application.
-
----
+Make sure the project is configured to use **JDK 26** in NetBeans.
 
 ### 5. Run the Application
 
-Locate the main entry file:
+Locate the project's main entry point:
 
 ```text
 Main.java
@@ -333,55 +316,51 @@ Main.java
 
 Run the application from Apache NetBeans.
 
-The system should start from the application's main entry point.
+The system should start from the main entry point and provide access to the airline management modules.
 
 ---
 
-## ⚠️ Important Notes
-
-> Please read the following before running the project.
+# ⚠️ Important Notes
 
 * Extract the project before opening it in NetBeans.
-* Do not run the application directly from the ZIP file.
+* Do not run the project directly from the ZIP file.
 * Maintain the original project folder structure.
-* Ensure all source files are included.
+* Ensure all Java source files are included.
 * Use **JDK 26** for compatibility.
 * **Apache NetBeans IDE 31 or later** is recommended.
-* Make sure the correct main class is configured before running the project.
+* Make sure the correct main class is configured before running the application.
 
 ---
 
-## 🎓 Project Purpose
+# 🎓 Project Purpose
 
 This project demonstrates how fundamental **Data Structures and Algorithms** can be applied to a practical airline transportation network.
 
-The main objectives of this project include:
+The main objectives are to:
 
-* Applying Graph Theory to a real-world airline network.
-* Representing airports and flight routes using a graph structure.
-* Implementing DFS for graph traversal.
-* Implementing BFS for graph traversal.
-* Implementing Dijkstra's Algorithm for shortest path analysis.
-* Applying Object-Oriented Programming principles.
-* Developing an interactive Java-based graphical user interface.
+* Apply Graph Theory to a real-world airline network.
+* Represent airports and flight routes using a graph structure.
+* Implement DFS for graph traversal.
+* Implement BFS for graph traversal.
+* Implement Dijkstra's Algorithm for shortest path analysis.
+* Apply Object-Oriented Programming principles.
+* Develop an interactive Java-based graphical user interface.
 
 ---
 
-## 🌏 Airline Network Coverage
+# 🌏 Airline Network Coverage
 
 The system focuses on domestic airport connections across Malaysia, including:
 
-🇲🇾 **Peninsular Malaysia**
-🇲🇾 **Sabah**
-🇲🇾 **Sarawak**
+* 🇲🇾 **Peninsular Malaysia**
+* 🇲🇾 **Sabah**
+* 🇲🇾 **Sarawak**
 
-The airline network can be further expanded by adding more airports and flight routes.
+The airline network can be expanded by adding additional airports and flight routes.
 
 ---
 
-## 🔮 Future Improvements
-
-Potential future enhancements include:
+# 🔮 Future Improvements
 
 * [ ] Interactive visual graph representation
 * [ ] Database integration
@@ -395,7 +374,7 @@ Potential future enhancements include:
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the **MIT License**.
 
@@ -405,7 +384,7 @@ See the `LICENSE` file for more information.
 
 ---
 
-## 👥 Project Information
+# 👥 Project Information
 
 |                          |                                       |
 | ------------------------ | ------------------------------------- |
