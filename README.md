@@ -1,77 +1,82 @@
 # ✈️ BABABOI Airline Flight System
 
-[![Java](https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk)](https://www.oracle.com/java/)
-[![NetBeans](https://img.shields.io/badge/NetBeans-31%2B-blue?logo=apache)](https://netbeans.apache.org/)
+<p align="center">
+  <strong>Graph-Based Airline Network & Route Analysis System</strong>
+</p>
 
-A **Java-based airline flight management system** that models domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak** using a **Weighted Directed Graph**.
+<p align="center">
+  A Java application that models domestic flight connections across Malaysia using a Weighted Directed Graph.
+</p>
 
-## 📌 Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-JDK%2026-orange?logo=openjdk" alt="Java">
+  <img src="https://img.shields.io/badge/NetBeans-31%2B-blue?logo=apache" alt="NetBeans">
+  <img src="https://img.shields.io/badge/Data%20Structure-Weighted%20Directed%20Graph-green" alt="Data Structure">
+</p>
 
-The system represents each **airport as a vertex** and each **direct flight route as a directed edge**. Flight routes are weighted with essential information such as:
+---
 
-* ✈️ Flight Number
-* 📍 Departure & Arrival Airports
-* 📏 Flight Distance
-* ⏱️ Flight Duration
+## 📖 About
 
-By applying **Graph Theory and Data Structure concepts**, the system provides a structured representation of the airline network for analysing **airport connectivity and route accessibility**.
+**BABABOI Airline Flight System** is a Java-based application developed to represent and analyse domestic flight connections across **Peninsular Malaysia, Sabah, and Sarawak**.
 
-## ✨ Features
+The airline network is modelled as a **Weighted Directed Graph**, where:
 
-* Airport and flight route management
-* Weighted Directed Graph representation
-* Flight information management
-* Airport connectivity analysis
-* Route accessibility analysis
+* **Vertices** represent airports.
+* **Directed edges** represent flight routes.
+* **Edge weights** represent flight information such as distance and duration.
 
-## 🛠️ Technologies
+The system demonstrates the practical application of **Graph Theory, Data Structures, and Object-Oriented Programming** in a real-world transportation network.
 
-| Technology      | Version                 |
-| --------------- | ----------------------- |
-| Java            | JDK 26                  |
-| Apache NetBeans | 31+                     |
-| Data Structure  | Weighted Directed Graph |
+## ✨ Key Features
+
+* ✈️ Airport and flight route management
+* 🗺️ Weighted Directed Graph representation
+* 🔗 Airport connectivity analysis
+* 📍 Route accessibility analysis
+* 📊 Flight distance and duration tracking
+
+## 🛠️ Built With
+
+* **Java — JDK 26**
+* **Apache NetBeans IDE 31+**
+* **Weighted Directed Graph**
+* **Object-Oriented Programming**
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-Make sure the following are installed:
+Ensure the following are installed:
 
-* **JDK 26**
-* **Apache NetBeans IDE 31 or later**
-
-Verify your Java installation:
-
-```bash
-java -version
-```
+* [Java JDK 26](https://www.oracle.com/java/)
+* [Apache NetBeans IDE 31+](https://netbeans.apache.org/)
 
 ### Installation
 
-1. Download or clone this repository.
-2. Extract the project if downloaded as a ZIP file.
-3. Open **Apache NetBeans IDE**.
-4. Select **File → Open Project**.
-5. Select the extracted project folder.
-6. Configure the project to use **JDK 26**.
-7. Locate and run `Main.java`.
+```bash
+git clone <repository-url>
+```
 
-## ⚠️ Important Notes
+Or download the repository as a ZIP file and extract it completely.
 
-> **Do not run the project directly from the ZIP file.**
+### Run the Application
 
-* Extract the project completely before opening it.
-* Maintain the original folder structure.
-* Ensure all required project files are included.
-* JDK 26 and NetBeans 31+ are recommended for compatibility.
+1. Open the extracted project in **Apache NetBeans**.
+2. Configure the project to use **JDK 26**.
+3. Locate `Main.java`.
+4. Run `Main.java` to launch the application.
 
-## 🎓 Academic Project
+> **Note:** Do not run the project directly from the ZIP file. Keep the original project structure intact.
 
-This project demonstrates the practical application of **Graph Theory, Data Structures, and Object-Oriented Programming** in modelling a real-world airline transportation network.
+## 🗂️ Project Scope
+
+The system focuses on domestic flight connectivity between airports located in:
+
+**Peninsular Malaysia · Sabah · Sarawak**
 
 ---
 
-**Programming Language:** Java
-**Graph Model:** Weighted Directed Graph
-**Coverage:** Peninsular Malaysia, Sabah & Sarawak
+<p align="center">
+  <strong>✈️ Connecting Airports. Analysing Routes. Exploring Malaysia.</strong>
+</p>
