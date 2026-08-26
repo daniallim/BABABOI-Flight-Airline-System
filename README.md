@@ -195,13 +195,15 @@ BABABOI-Flight-Airline-System
 │       │
 │       ├── Login.java
 │       ├── Menu.java
-│       ├── FlightNetwork.java
-│       ├── ManageAirports.java
-│       ├── ManageFlights.java
-│       ├── DFS.java
-│       ├── BFS.java
+│       ├── AirlineFlightNetwork.java
+│       ├── VertexManagement.java
+│       ├── EdgeManagement.java
+│       ├── DFS_Search.java
+│       ├── BFS_Search.java
 │       ├── ShortestPath.java
 │       └── Main.java
+|       └── FlightNetworkData.java
+
 │
 ├── nbproject
 │
