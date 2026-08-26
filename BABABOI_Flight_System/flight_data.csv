@@ -1,0 +1,107 @@
+count|26
+airports|Langkawi International Airport|LGK
+airports|Kuala Lumpur International Airport|KUL
+airports|Penang International Airport|PEN
+airports|Senai International Airport (Johor Bahru)|JHB
+airports|Sultan Abdul Aziz Shah Airport|SZB
+airports|Sultan Azlan Shah Airport|IPH
+airports|Sultan Abdul Halim Airport|AOR
+airports|Sultan Ahmad Shah Airport|KUA
+airports|Sultan Mahmud Airport|TGG
+airports|Sultan Ismail Petra Airport|KBR
+airports|Kuching International Airport|KCH
+airports|Kota Kinabalu International Airpor|BKI
+airports|Sibu Airport|SBW
+airports|Mukah Airport|MKM
+airports|Bintulu Airport|BTU
+airports|Miri Airport|MYY
+airports|Mulu Airport|MZV
+airports|Ba’kelalan Airport|BKM
+airports|Tawau Airport|TWU
+airports|Lahad Datu Airport|LDU
+airports|Sandakan Airport|SDK
+airports|Labuan Airport|LBU
+airports|Bario Airport|BBN
+airports|Limbang Airport|LMN
+airports|TEST|TES
+airports|LLL|LLL
+route|1|2|460.0|1.17|AK6302
+route|1|3|131.0|0.67|FY1002
+route|1|4|680.0|3.08|OD1402
+route|1|5|410.0|1.17|FY1024
+route|3|1|131.0|0.67|FY1003
+route|3|2|325.0|1.0|MH1138
+route|3|4|560.0|1.17|OD1204
+route|3|5|280.0|1.0|FY1432
+route|3|10|240.0|1.0|AK6204
+route|3|11|1190.0|2.0|AK5432
+route|3|12|1750.0|2.83|MH2608
+route|4|1|680.0|3.08|OD1403
+route|4|2|250.0|0.83|MH1032
+route|4|3|560.0|1.17|OD1205
+route|4|5|287.0|1.0|FY1182
+route|4|6|430.0|1.0|AK6083
+route|4|7|620.0|1.25|AK6003
+route|4|11|740.0|1.42|AK5232
+route|4|12|1453.0|2.33|MH2614
+route|4|13|926.0|1.58|AK5302
+route|4|15|1052.0|7.5|OD1602
+route|4|19|1630.0|3.0|AK5502
+route|6|4|430.0|1.0|AK6082
+route|7|2|410.0|1.17|MH1204
+route|7|4|620.0|1.25|AK6002
+route|7|5|360.0|1.17|FY1102
+route|8|2|200.0|1.0|MH1268
+route|8|5|198.0|1.0|FY1282
+route|9|2|331.0|1.0|MH1134
+route|9|5|303.0|1.0|FY1302
+route|10|2|390.0|1.17|MH1382
+route|10|3|240.0|1.0|AK6205
+route|10|4|530.0|4.25|OD1304
+route|10|5|350.0|1.17|FY1204
+route|10|11|1033.0|5.42|AK5202
+route|10|12|1520.0|3.0|MH2642
+route|11|2|970.0|1.83|MH2504
+route|11|4|740.0|1.42|AK5233
+route|11|12|802.0|1.5|MH3104
+route|11|13|200.0|0.67|MH3182
+route|11|14|245.0|1.08|MH3402
+route|11|15|350.0|0.83|AK6032
+route|11|16|510.0|1.0|MH3152
+route|11|17|570.0|1.67|MH3202
+route|12|2|1629.0|2.5|MH2604
+route|12|4|1453.0|2.33|MH2615
+route|12|11|802.0|1.5|MH3105
+route|12|16|289.0|0.83|MH3133
+route|12|19|290.0|0.83|MH3022
+route|12|22|112.0|0.58|MH3243
+route|13|2|1140.0|2.17|MH2714
+route|13|4|926.0|1.58|AK5303
+route|13|11|200.0|0.67|MH3183
+route|13|15|150.0|0.7|MH3452
+route|13|16|319.0|1.0|MH3192
+route|14|11|245.0|1.08|MH3403
+route|14|16|268.0|1.17|MH3404
+route|15|2|1258.0|2.25|MH2742
+route|15|11|350.0|0.83|AK6033
+route|15|13|150.0|0.7|MH3453
+route|15|16|170.0|0.67|MH3412
+route|16|2|1374.0|2.25|MH2574
+route|16|11|510.0|1.0|MH3153
+route|16|12|289.0|0.83|MH3132
+route|16|13|319.0|1.0|MH3193
+route|16|15|170.0|0.67|MH3413
+route|16|17|96.0|0.5|MH3222
+route|16|22|176.0|0.75|MH3212
+route|17|11|570.0|1.67|MH3203
+route|17|16|96.0|0.5|MH3223
+route|19|2|1830.0|2.83|MH2660
+route|19|4|1630.0|3.0|AK5504
+route|19|12|290.0|0.83|MH3023
+route|20|2|1860.0|2.92|OD1082
+route|21|2|1847.0|2.83|MH2712
+route|21|12|222.0|0.75|MH3082
+route|22|2|1529.0|2.5|MH2634
+route|22|12|112.0|0.58|MH3242
+route|22|16|176.0|0.75|MH3213
+route|23|16|177.0|0.83|MH3502
