@@ -277,7 +277,7 @@ java -version
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/BABABOI-Flight-Airline-System.git
+git clone https://github.com/daniallim/BABABOI-Flight-Airline-System.git
 ```
 
 Alternatively, download the repository as a **ZIP file** from GitHub.
