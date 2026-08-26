@@ -222,17 +222,19 @@ BABABOI-Flight-Airline-System
 
 # 🧩 Core Classes
 
-| Class / Module        | Responsibility                                                                |
-| --------------------- | ----------------------------------------------------------------------------- |
-| `Login.java`          | Handles user authentication and provides access to the system.                |
-| `Menu.java`           | Provides the main navigation interface for the system.                        |
-| `FlightNetwork.java`  | Displays and manages the overall airline network.                             |
-| `ManageAirports.java` | Handles the creation, updating, deletion, and management of airport vertices. |
-| `ManageFlights.java`  | Handles the creation and management of flight routes.                         |
-| `DFS.java`            | Implements Depth-First Search for route exploration.                          |
-| `BFS.java`            | Implements Breadth-First Search for route exploration.                        |
-| `ShortestPath.java`   | Implements Dijkstra's Algorithm to determine the shortest route.              |
-| `Main.java`           | Serves as the main entry point of the application.                            |
+| Class / Module              | Responsibility                                                               |
+| --------------------------- | ---------------------------------------------------------------------------- |
+| `Login.java`                | Handles staff login and user authentication.                                 |
+| `Menu.java`                 | Provides the main menu and system navigation.                                |
+| `AirlineFlightNetwork.java` | Displays and manages the airline flight network graph.                       |
+| `VertexManagement.java`     | Manages airport vertices, including adding, updating, and deleting airports. |
+| `EdgeManagement.java`       | Manages flight routes and connections between airports.                      |
+| `DFS_Search.java`           | Implements Depth-First Search to explore flight routes.                      |
+| `BFS_Search.java`           | Implements Breadth-First Search to explore flight routes.                    |
+| `ShortestPath.java`         | Implements Dijkstra’s Algorithm to find the shortest flight route.           |
+| `Main.java`                 | Serves as the main entry point of the application.                           |
+| `FlightNetworkData.java`    | Stores and manages the flight network data used by the system.               |
+
 
 ---
 
