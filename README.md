@@ -294,7 +294,7 @@ If you downloaded the project as a ZIP file:
 
 > ⚠️ **Do not open or run the project directly from the ZIP file.**
 
-### 3. Open the Project in NetBeans
+### 3. Open the Project in NetBeans 31
 
 Open **Apache NetBeans IDE 31 or later**.
 
